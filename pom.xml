@@ -84,6 +84,11 @@
             <version>0.13.0</version>
             <scope>runtime</scope>
         </dependency>
+		<!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-community-dialects -->
+		<dependency>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId>hibernate-community-dialects</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
